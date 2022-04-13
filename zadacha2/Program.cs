@@ -1,7 +1,7 @@
 ﻿// Показать числа Фибоначчи
 
 Console.WriteLine("Введите число");
-int n = int.Parse(Console.ReadLine());
+int n = int.Parse(Console.ReadLine() ?? " ");
 int a1 = 0;
 int a2 = 1;
 if (n > 0)
